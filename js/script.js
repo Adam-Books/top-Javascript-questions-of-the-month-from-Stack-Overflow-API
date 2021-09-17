@@ -28,11 +28,11 @@ fetch(url)
     }
   })
   .then(null, (error) => {
-  setTimeout(() => {
-    const message = document.createElement("pre");
-    document.body.appendChild(message);
-    message.style.color = "red";
-    message.style.fontSize = "30px";
-    message.textContent = String(error);
-   }, 3000);
+   setTimeout(() => {
+     const message = document.createElement("pre");
+     document.body.appendChild(message);
+     message.style.color = "red";
+     message.style.fontSize = "30px";
+     message.textContent = String(error);
+   }, 10000);
   });
