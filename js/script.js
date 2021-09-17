@@ -4,7 +4,7 @@ document.body.style.background = "#222";
 document.body.style.color = "#eee";
 
 const url =
-  "http://api.stackexchange.com/2.2/questions?site=stackoverflow&tagged=javascript&sort=month&filter=unsafe&key=gik4BOCMC7J9doavgYteRw((";
+  "https://api.stackexchange.com/2.2/questions?site=stackoverflow&tagged=javascript&sort=month&filter=unsafe&key=gik4BOCMC7J9doavgYteRw((";
 
 fetch(url)
   .then((response) => response.json())
