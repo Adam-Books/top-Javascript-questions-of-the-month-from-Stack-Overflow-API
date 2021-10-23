@@ -1,4 +1,4 @@
-# top-Javascript-questions-of-the-month-from-Stack-Overflow-API
+# Top JavaScript questions of the month from Stack Overflow's API
 Displaying the top Javascript questions of the month from Stack Overflow's API Using:
 - HTML
 - JavaScript
